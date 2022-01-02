@@ -3,6 +3,9 @@ from pdf2image import convert_from_path
 import glob
 
 #pdfs = glob.glob("katalog/*.pdf")
+# https://github.com/tesseract-ocr/tessdata
+# download tur.traineddata
+# or sudo apt-get install tesseract-ocr-tur
 
 def pdf2text(pdf_path):
     print(pdf_path)
